@@ -1,0 +1,6 @@
+PROGRAM Print(INPUT, OUTPUT);
+BEGIN 
+  WRITELN('Content-Type: text/plain');
+  WRITELN;
+  WRITELN('CONTENT_LENGTH')
+END. 
