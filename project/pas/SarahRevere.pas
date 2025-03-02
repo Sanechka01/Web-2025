@@ -2,7 +2,7 @@ PROGRAM SarahRevere(INPUT, OUTPUT);
 USES
   DOS;
 VAR
-  Query: STRING;
+  Query: STRING;∂
 BEGIN {PrintName}
   Query := GetEnv('QUERY_STRING');
   WRITELN('Content-Type: text/plain');
