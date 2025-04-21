@@ -1,0 +1,50 @@
+[
+  {
+    "post_id": 0,
+    "user_id": 0,
+    "images": "[\"Photo_boy.png\", \"Photo_boy.png\"]",
+    "like": 22,
+    "content": "Так красиво сегодня на улице! Настоящая зима)) ",
+    "posted_at": "2025-04-17 20:29:27"
+  },
+  {
+    "post_id": 1,
+    "user_id": 1,
+    "images": "[\"Photo_boy.png\"]",
+    "like": 15,
+    "content": "Вот это да!",
+    "posted_at": "2025-04-17 20:29:27"
+  },
+  {
+    "post_id": 2,
+    "user_id": 1,
+    "images": "[\"Photo_boy.png\"]",
+    "like": 22,
+    "content": "Город пах жареными облаками. На ",
+    "posted_at": "2025-04-17 20:29:27"
+  },
+  {
+    "post_id": 3,
+    "user_id": 0,
+    "images": "[\"Photo_boy.png\"]",
+    "like": 22,
+    "content": "Так красиво сегодня на улице! Настоящая зима)) ",
+    "posted_at": "2025-04-17 20:29:27"
+  },
+  {
+    "post_id": 4,
+    "user_id": 1,
+    "images": "[\"Photo_boy.png\"]",
+    "like": 15,
+    "content": "Вот это да!",
+    "posted_at": "2025-04-17 20:29:27"
+  },
+  {
+    "post_id": 5,
+    "user_id": 1,
+    "images": "[\"Photo_boy.png\"]",
+    "like": 22,
+    "content": "Город пах жареными облаками. На ",
+    "posted_at": "2025-04-17 20:29:27"
+  }
+]

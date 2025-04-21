@@ -1,0 +1,16 @@
+[
+  {
+    "user_id": 0,
+    "first_name": "Ваня",
+    "last_name": "Денисов",
+    "profile_image": "photo_big.png",
+    "about": "Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!"
+  },
+  {
+    "user_id": 1,
+    "first_name": "Лиза",
+    "last_name": "Дёмина",
+    "profile_image": "liza_big.jpeg",
+    "about": "dsrthfgjgfdsadghawrefsgdhf"
+  }
+]

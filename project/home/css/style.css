@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Golos UI";
+    src: url("./golos-ui_regular.woff") format("woff");
+    font-weight: normal;
+}
+
+* {
+    font-family: "Golos UI";
+    margin: 0;
+    padding: 0;
+}
+
+.slidebar {
+    width: 72px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding-top: 40px;
+}
+
+.icon {
+    width: 40px;
+}
+
+.page {
+    display: flex;
+    flex-direction: row;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 72px;
+}
+
+.header {
+    height: 73px;
+    width: 100%;
+}
+
+.post-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 0 447px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 14px 0;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+.avatar {
+    width: 32px;
+}
+
+.username {
+    font-family: Golos UI;
+    font-weight: 550;
+    font-size: 14px;
+    line-height: 25px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #222222;
+}
+
+.edit-icon {
+    width: 24px;
+    padding: 6px;
+}
+
+.profile-name {
+    font: 500 14px/18px "Golos UI";
+    color: #222222;
+    height: 32px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.photo {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.like-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #2222220D;
+    border-radius: 8px;
+    gap: 3px;
+    padding: 6px 12px;
+    margin-bottom: 16px;
+}
+
+.like {
+    width: 16px;
+}
+
+.like-text {
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #222222;
+}
+
+.text {
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+.time {
+    font-family: Golos UI;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.15px;
+    vertical-align: middle;
+    color: #808080;
+    margin-bottom: 8px;
+}
