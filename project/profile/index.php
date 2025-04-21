@@ -35,8 +35,6 @@
             $user_data = $user;
         }
     }
-    //mysql fix
-    //$id = $user_data['user_id'] - 1;
     $user_posts = array_filter($posts, function ($post) use ($id) {
         return $post['user_id'] == $id;
     });

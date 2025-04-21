@@ -37,11 +37,7 @@
             //$posts = array_values($posts);
             
             foreach ($posts as $post) {
-                //json
                 $user_data = $users[array_search($post["user_id"], array_column($users, "user_id"))];
-                //mysql
-                //$user_data = $users[array_search($post["user_id"]+1, array_column($users, "user_id"))];
-            
                 //получаем пользователя из поста и ищем его данные из массива пользователей
                 renderPost($post, $user_data);
             }
