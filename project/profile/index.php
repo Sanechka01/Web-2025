@@ -16,11 +16,11 @@
     $posts = json_decode($posts_json, true);
 
     //mysql
-    // require_once '../home/script.php';
-    // $users = getUsers();
-    //$users = array_values($users);
-    //$posts = getPosts();
-    // $posts = array_values($posts);
+    require_once '../home/script.php';
+    $users = getUsers();
+    $users = array_values($users);
+    $posts = getPosts();
+    $posts = array_values($posts);
     
 
     $id = 1;
@@ -43,12 +43,12 @@
     <div class="page">
         <div class="slidebar">
             <a href=<?php echo '../home' ?>>
-                <img class="icon" src="../image/Home40black.svg" alt="иконка Домашняя страница">
+                <img class="slidebar__icon" src="../image/Home40black.svg" alt="иконка Домашняя страница">
             </a>
-            <img class="icon" src="../image/Plus_40_black.svg" alt="иконка плюс">
+            <img class="slidebar__icon" src="../image/Plus_40_black.svg" alt="иконка плюс">
 
             <a href=<?php echo '../profile' ?>>
-                <img class="icon" src="../image/Profile_40_black.svg" alt="иконка профиль">
+                <img class="slidebar__icon" src="../image/Profile_40_black.svg" alt="иконка профиль">
             </a>
         </div>
         <?php

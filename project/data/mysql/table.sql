@@ -18,3 +18,28 @@ CREATE TABLE `user` (
     `about` VARCHAR(200),
     PRIMARY KEY (`user_id`)
 );
+
+/*
+запуск mysql
+    mysql -u root
+
+использование бд
+    USE blog;
+
+показать все таблицы
+    SHOW TABLES;
+
+показать конкретную таблицу 
+    SELECT * FROM post;
+    SELECT * FROM user;
+
+вставка в таблицу
+    *файлы posts.sql, users.sql*
+
+удаление таблицы
+    DROP TABLE post;
+    DROP TABLE user;
+
+создание таблиц
+    файл table.sql
+*/

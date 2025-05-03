@@ -18,8 +18,9 @@
     padding-top: 40px;
 }
 
-.icon {
+.slidebar__icon {
     width: 40px;
+    height: 40px;
 }
 
 .page {
@@ -44,16 +45,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 10px;
+
 }
 
 .post {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    margin: 0 447px;
+    justify-content: center;
 }
 
-.title {
+.post__title {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -62,18 +65,19 @@
     margin: 14px 0;
 }
 
-.user-info {
+.user {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 7px;
 }
 
-.avatar {
+.user__avatar {
     width: 32px;
+    height: 32px;
 }
 
-.username {
+.user__name {
     font-family: Golos UI;
     font-weight: 550;
     font-size: 14px;
@@ -81,6 +85,7 @@
     letter-spacing: -0.15px;
     vertical-align: middle;
     color: #222222;
+    text-decoration: none;
 }
 
 .edit-icon {
@@ -88,20 +93,12 @@
     padding: 6px;
 }
 
-.profile-name {
-    font: 500 14px/18px "Golos UI";
-    color: #222222;
-    height: 32px;
-    text-decoration: none;
-    margin-top: 12px;
-}
-
-.photo {
+.post__photo {
     width: 100%;
     margin-bottom: 16px;
 }
 
-.like-button {
+.post__like-button {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -117,7 +114,7 @@
     width: 16px;
 }
 
-.like-text {
+.post__like-text {
     font-family: Golos UI;
     font-weight: 400;
     font-size: 15px;
@@ -127,7 +124,7 @@
     color: #222222;
 }
 
-.text {
+.post__text {
     font-family: Golos UI;
     font-weight: 400;
     font-size: 15px;
@@ -138,7 +135,7 @@
     margin-bottom: 8px;
 }
 
-.time {
+.post__time {
     font-family: Golos UI;
     font-weight: 400;
     font-size: 15px;

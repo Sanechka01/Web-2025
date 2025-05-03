@@ -12,12 +12,12 @@
     <div class="page">
         <div class="slidebar">
             <a href=<?php echo '../home' ?>>
-                <img class="icon" src="../image/Home40black.svg" alt="иконка Домашняя страница">
+                <img class="slidebar__icon" src="../image/Home40black.svg" alt="иконка Домашняя страница"><!--переименовать -->
             </a>
-            <img class="icon" src="../image/Plus_40_black.svg" alt="иконка плюс">
+            <img class="slidebar__icon" src="../image/Plus_40_black.svg" alt="иконка плюс">
 
             <a href=<?php echo '../profile' ?>>
-                <img class="icon" src="../image/Profile_40_black.svg" alt="иконка профиль">
+                <img class="slidebar__icon" src="../image/Profile_40_black.svg" alt="иконка профиль">
             </a>
         </div>
         <div class="main">
@@ -31,15 +31,25 @@
             $posts = json_decode($posts_json, true);
 
             //mysql
-            //$users = getUsers();  
-            //$users = array_values($users);
-            //$posts = getPosts();
-            //$posts = array_values($posts);
-            
+            $users = getUsers();
+            $users = array_values($users);
+            $posts = getPosts();
+            $posts = array_values($posts);
+
             foreach ($posts as $post) {
                 $user_data = $users[array_search($post["user_id"], array_column($users, "user_id"))];
                 //получаем пользователя из поста и ищем его данные из массива пользователей
-                renderPost($post, $user_data);
+                if (isset($_GET['user_id'])) {
+                    $userId = 1;
+                    if (is_numeric($_GET['user_id'])) {
+                        $userId = $_GET['user_id'];
+                    }
+                    if ($user_data['user_id'] == $userId) {
+                        renderPost($post, $user_data);
+                    }
+                } else {
+                    renderPost($post, $user_data);
+                }
             }
             ?>
         </div>

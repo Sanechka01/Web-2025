@@ -10,12 +10,12 @@ INSERT INTO
 VALUES (
         'Ваня',
         'Денисов',
-        'Avatar.png',
+        'photo_big.png',
         'Привет! Я системный аналитик в ACME :) Тут моя жизнь только для самых классных!'
     ),
     (
         'Лиза',
         'Дёмина',
-        'Avatar_Liza.png',
+        'liza_big.jpeg',
         ''
     );
