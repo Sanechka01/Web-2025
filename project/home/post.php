@@ -14,7 +14,6 @@ function renderPost(array $post, $user)
         </div>
         <img class="photo" src=<?php echo "../image/" . json_decode($post['images'])[0]; ?>>
         <!-- json преобразуем в массив фотографий и берем первую т.к. нет дизайна для нескольких фотографий-->
-        <!-- массив фотографий сказал сделать Керим!!! -->
         <div class="like-button">
             <span>❤️</span>
             <span class="like-text"><?php echo $post['like']; ?></span>
